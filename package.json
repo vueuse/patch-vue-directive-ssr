@@ -1,0 +1,17 @@
+{
+  "name": "patch-vue-directive-ssr",
+  "description": "Patch for Vue 3 directive SSR build failure",
+  "version": "0.0.1",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/antfu",
+  "author": "antfu <anthonyfu117@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antfu/patch-vue-directive-ssr"
+  },
+  "homepage": "https://github.com/antfu/patch-vue-directive-ssr",
+  "bugs": "https://github.com/antfu/patch-vue-directive-ssr/issues",
+  "scripts": {
+    "postinstall": "node ./patch.js"
+  }
+}
