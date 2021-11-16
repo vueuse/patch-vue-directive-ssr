@@ -8,7 +8,8 @@ This package patchs `@vue/compiler-ssr` for build custom directives with SSR/SSG
 
 The patch will make all the custom directive as-is for to be solved at runtime (no transformations unless you configure explicitly).
 
-> TODO: add more explanation and issue reference
+Related Issues:
+- https://github.com/vuejs/vitepress/issues/92#issuecomment-739115781
 
 ## Usage
 
